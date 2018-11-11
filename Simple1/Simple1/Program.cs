@@ -11,6 +11,12 @@ namespace Simple1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Againnnn Cyril, Are we done yet?");
+            DoSomeStuff(100);
+        }
+
+        private static void DoSomeStuff(int v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
